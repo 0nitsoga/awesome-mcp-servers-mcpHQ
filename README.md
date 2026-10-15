@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-294-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-295-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (32)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (23)
 - [Filesystems and Documents](#filesystems-and-documents) (12)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (18)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (19)
 - [Communication and Productivity](#communication-and-productivity) (32)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (38)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (27)
@@ -306,6 +306,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `pulumi` `iac` `cloud`
 - **[Railway MCP Server](https://docs.railway.com/cli/mcp)** `Official` `Rust` — Deploy services and manage Railway projects through the MCP server built into the Railway CLI.  
   `railway` `deploy` `paas`
+- **[remotify-mcp](https://github.com/onlsol/relay.remotify.run)** `JavaScript` — Local stdio MCP server that executes shell commands on remote computers through an HTTP relay, with optional per-command approval.  
+  `remote-shell` `relay` `command-execution` `stdio`
 - **[Shipvela](https://shipvela.com/integrations/codex)** `Official` `TypeScript` — Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.  
   `hosting` `deployment` `github` `oauth`
 - **[SolidPing](https://github.com/fclairamb/solidping)** `Official` `Go` — Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.  

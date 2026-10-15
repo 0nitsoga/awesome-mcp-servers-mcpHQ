@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 294 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 295 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1202,6 +1202,17 @@ Deploy services and manage Railway projects through the MCP server built into th
 - Provider: Railway
 - Official: yes
 - Tags: railway, deploy, paas
+- Category: Cloud and Infrastructure
+
+### remotify-mcp
+
+Local stdio MCP server that executes shell commands on remote computers through an HTTP relay, with optional per-command approval.
+
+- URL: https://github.com/onlsol/relay.remotify.run
+- Language: JavaScript
+- Provider: onlsol
+- Official: no
+- Tags: remote-shell, relay, command-execution, stdio
 - Category: Cloud and Infrastructure
 
 ### Shipvela
